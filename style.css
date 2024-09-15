@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+
+:root{
+    --white: #fff;
+    --dark1: #34344e;
+    --dark2: #3a415a;
+    --dark3: #566981;
+    --dark4: #89a7b1;
+    --dark5: #cbdad5;
+    --dark6: #2f2f46;
+    --cyan1: #70e3ea;
+}
+
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: var(--dark1);
+    font-family: "lato";
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content:  space-around;
+    align-items: center;
+    background-color: var(--dark6);
+    margin-bottom: 1%;
+    vertical-align: middle;
+}
+
+.box-img_header{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content:  space-around;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.login{
+    max-width: 90px;
+    height: 100%;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.login:hover{
+    transform: scale(1.1);
+}
+
+.nav-links{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    transition: color 0.4s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+.nav-links:hover{
+    color: yellow;
+    transform: scale(1.1);
+}
+
+/* Apresentação */
+
+.line-title{
+    width: 100%;
+    display: flex;
+}
+
+.box-title-01{
+    width: 50%;
+    text-align: center;
+    font-size: larger;
+}
+
+.opcoes{
+    border-radius: 5px;
+}
+
+/* Imagem Lampada */
+
+.line-image-lamp{
+    width: 100%;
+    display: flex;
+}
+
+.box-image-lamp{
+    width: 50%;
+    font-size: large;
+}
+
+.image-lamp{
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 4%;
+}
+
+/* Quem Somos */
+
+.line-quem-somos{
+    width: 100%;
+    display: flex;
+}
+
+.text-quem-somos{
+    text-align: justify;
+    font-size: large;
+    margin-left: 4%;
+    width: 44%;
+}
+
+.image-tecnico{
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+}
+
+/* Avaliações */
+
+.title-avaliacoes{
+    margin-left: 4%;
+}
+
+.line-avaliacoes{
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+
+}
+
+.text-avaliacoes{
+    font-size: medium;
+    text-align: justify;
+    margin-top: 1.5%;
+}
+
+.foto-de-perfil{
+    width: 6%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 4%;
+    margin-right: 2%;
+}
+
+/* Contatos */
+
+.title-contact{
+    margin-left: 4%;
+    font-size: xx-large;
+    margin-bottom: 4%;
+}
+
+.line-contact{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+}
+
+.social-midia{
+    width: auto;
+    height: 95px;
+}
+
+/* Creditos */
+
+.credits{
+    margin-top: 5%;
+    text-align: center;
+    font-size: small;
+}
